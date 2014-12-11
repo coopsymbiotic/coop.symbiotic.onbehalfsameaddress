@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<extension key="ca.ccednetrcdec.sameaddress" type="module">
+  <file>sameaddress</file>
+  <name>On behalf same address checkbox</name>
+  <description>Same address checkbox for on behalf form to simplify the user experience</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>samuelsov</author>
+    <email>samuel@symbiotic.coop</email>
+  </maintainer>
+  <releaseDate>2014-03-04</releaseDate>
+  <version>1.0</version>
+  <develStage>alpha</develStage>
+  <compatibility>
+    <ver>4.4</ver>
+  </compatibility>
+  <comments></comments>
+  <civix>
+    <namespace>CRM/SameAddress</namespace>
+  </civix>
+</extension>
