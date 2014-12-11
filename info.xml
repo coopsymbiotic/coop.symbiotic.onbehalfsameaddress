@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<extension key="ca.ccednetrcdec.sameaddress" type="module">
+<extension key="coop.symbiotic.onbehalfsameaddress" type="module">
   <file>sameaddress</file>
   <name>On behalf same address checkbox</name>
   <description>Same address checkbox for on behalf form to simplify the user experience</description>
