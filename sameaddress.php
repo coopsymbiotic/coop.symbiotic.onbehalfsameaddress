@@ -92,6 +92,12 @@ function sameaddress_civicrm_buildForm($formName, &$form) {
     // the regular javascript code don't work in this case so use a new variable and do the javascript magic in .extra.tpl
     // original code in templates/CRM/Core/BillingBlock - copy in templates/CRM/Contribute/Form/Contribution/Main.extra.tpl (not possible to have BillingBlock.extra.tpl)
     $form->assign('onbehalfProfileAddressFields', $profileAddressFields);
+
+    // add same address code in the template
+    CRM_Core_Region::instance('page-body')->add(array(
+      'template' => 'CRM/SameAddress/Main.tpl',
+    ));
+
   }
 }
 
